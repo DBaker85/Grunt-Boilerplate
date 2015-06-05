@@ -1,0 +1,77 @@
+{
+    "totalCount": 9,
+    "errors": [
+        {
+            "message": "Expected indentation of 4 characters",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 38,
+            "column": 4,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 4 characters at app/scripts/classes/cl-test.js :\n    36 |   */\n    37 |  var clicky = function() {\n    38 |   var date = new Date();\n------------^\n    39 |   var params = JSON.stringify({ date:date });\n    40 |   $.ajax({"
+        },
+        {
+            "message": "Expected indentation of 4 characters",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 39,
+            "column": 4,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 4 characters at app/scripts/classes/cl-test.js :\n    37 |  var clicky = function() {\n    38 |   var date = new Date();\n    39 |   var params = JSON.stringify({ date:date });\n------------^\n    40 |   $.ajax({\n    41 |      url: '/clickAction',"
+        },
+        {
+            "message": "Illegal space after opening curly brace",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 39,
+            "column": 32,
+            "rule": "disallowSpacesInsideObjectBrackets",
+            "explainedError": "Illegal space after opening curly brace at app/scripts/classes/cl-test.js :\n    37 |  var clicky = function() {\n    38 |   var date = new Date();\n    39 |   var params = JSON.stringify({ date:date });\n----------------------------------------^\n    40 |   $.ajax({\n    41 |      url: '/clickAction',"
+        },
+        {
+            "message": "Illegal space before closing curly brace",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 39,
+            "column": 42,
+            "rule": "disallowSpacesInsideObjectBrackets",
+            "explainedError": "Illegal space before closing curly brace at app/scripts/classes/cl-test.js :\n    37 |  var clicky = function() {\n    38 |   var date = new Date();\n    39 |   var params = JSON.stringify({ date:date });\n--------------------------------------------------^\n    40 |   $.ajax({\n    41 |      url: '/clickAction',"
+        },
+        {
+            "message": "Expected indentation of 4 characters",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 40,
+            "column": 4,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 4 characters at app/scripts/classes/cl-test.js :\n    38 |   var date = new Date();\n    39 |   var params = JSON.stringify({ date:date });\n    40 |   $.ajax({\n------------^\n    41 |      url: '/clickAction',\n    42 |      type: 'POST',"
+        },
+        {
+            "message": "Expected indentation of 0 characters",
+            "filename": "app/scripts/classes/cl-test.js",
+            "line": 62,
+            "column": 0,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 0 characters at app/scripts/classes/cl-test.js :\n    60 |\n    61 |  instance.clicky = clicky;\n    62 |  };\n--------^\n    63 |\n    64 |///////////////"
+        },
+        {
+            "message": "Expected indentation of 2 characters",
+            "filename": "app/scripts/controllers/co-test.js",
+            "line": 2,
+            "column": 2,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 2 characters at app/scripts/controllers/co-test.js :\n     1 |$(document).ready(function() {\n     2 | console.log('this should appear');\n----------^\n     3 |});\n     4 |"
+        },
+        {
+            "message": "Operator , should not stick to following expression",
+            "filename": "app/scripts/controllers/co-test.js",
+            "line": 5,
+            "column": 27,
+            "rule": "requireSpaceAfterBinaryOperators",
+            "explainedError": "Operator , should not stick to following expression at app/scripts/controllers/co-test.js :\n     3 |});\n     4 |\n     5 |$('.js-button').on('click',function() {\n-----------------------------------^\n     6 | app._classes.Alertify.clicky();\n     7 |});"
+        },
+        {
+            "message": "Expected indentation of 2 characters",
+            "filename": "app/scripts/controllers/co-test.js",
+            "line": 6,
+            "column": 2,
+            "rule": "validateIndentation",
+            "explainedError": "Expected indentation of 2 characters at app/scripts/controllers/co-test.js :\n     4 |\n     5 |$('.js-button').on('click',function() {\n     6 | app._classes.Alertify.clicky();\n----------^\n     7 |});\n     8 |"
+        }
+    ]
+}

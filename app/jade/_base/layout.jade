@@ -1,0 +1,18 @@
+doctype html
+<!--[if IE 8]>
+html.no-js.ie.ie8(lang="#{pLanguage}", dir="#{pReadDirection}")
+<![endif]-->
+<!--[if IE 9]>
+html.no-js.ie.ie9(lang="#{pLanguage}", dir="#{pReadDirection}")
+<![endif]-->
+<!--[if gt IE 9]><html class="gt-ie9 non-ie" lang="en"><![endif]-->
+html(lang="en", dir="ltr")
+	include head
+	
+
+body
+	.container
+		block content
+
+	include footer-scripts
+

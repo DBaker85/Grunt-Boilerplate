@@ -1,0 +1,23 @@
+
+
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	margin: 10px 0;
+}
+
+$start: 60px; 
+@each $h in h1, h2, h3, h4, h5, h6{
+    #{$h} { 
+      font-size: $start;
+      font-family: 'Oxygen', sans-serif;
+      color: #732f73;
+      line-height: $start+10px;
+      }
+
+      $start: $start - 9px;
+  }
+  
+
